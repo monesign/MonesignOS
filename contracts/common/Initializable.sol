@@ -7,7 +7,7 @@ import "./UnstructuredStorage.sol";
 contract Initializable is TimeHelpers {
     using UnstructuredStorage for bytes32;
 
-    bytes32 internal constant INITIALIZATION_BLOCK_POSITION = 0xebb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e;
+    bytes32 internal constant INITIALIZATION_BLOCK_POSITION = 0x80b8da4ec53f25af85388f777f4f1c997b43ef1417d8ee3f7c7881848e2e076c;
 
     string private constant ERROR_ALREADY_INITIALIZED = "INIT_ALREADY_INITIALIZED";
     string private constant ERROR_NOT_INITIALIZED = "INIT_NOT_INITIALIZED";

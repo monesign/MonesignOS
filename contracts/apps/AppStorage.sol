@@ -11,8 +11,8 @@ import "../kernel/IKernel.sol";
 contract AppStorage {
     using UnstructuredStorage for bytes32;
 
-    bytes32 internal constant KERNEL_POSITION = 0x4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b;
-    bytes32 internal constant APP_ID_POSITION = 0xd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b;
+    bytes32 internal constant KERNEL_POSITION = 0xffa6669c3b3ceaed213fc7fd554286ca87479c6e475d1899db2e417b9e7d4f0b;
+    bytes32 internal constant APP_ID_POSITION = 0xe56c578d5c9d56a233796cc90fd981f899a3424722e0bd5d232e44ea3d7b27fb;
 
     function kernel() public view returns (IKernel) {
         return IKernel(KERNEL_POSITION.getStorageAddress());
